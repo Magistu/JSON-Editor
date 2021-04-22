@@ -1,0 +1,40 @@
+{
+"~~~soundname1 soundname2 soundname3~~~": {
+    "category": "player", //Либо, если каждому соответсвует разная категория "~~~soundcategory1 soundcategory2 soundcategory3~~~",
+    "sounds": [["~~~soundname11~~~", "soundname12", "soundname13", "soundname14"], ["soundname21", "soundname22", "soundname23", "soundname24", "soundname25", "soundname26"], ["soundname34", "soundname35", "soundname36", "soundname37", "soundname38"]]
+  }
+}
+
+//На выходе в файле out.json получим:
+// {
+//   "soundname1": {
+//     "category": "player",
+//     "sounds": [
+//       "soundname11",
+//       "soundname12",
+//       "soundname13",
+//       "soundname14"
+//     ]
+//   },
+//   "soundname2": {
+//     "category": "player",
+//     "sounds": [
+//       "soundname21",
+//       "soundname22",
+//       "soundname23",
+//       "soundname24",
+//       "soundname25",
+//       "soundname26"
+//     ]
+//   },
+//   "soundname3": {
+//     "category": "player",
+//     "sounds": [
+//       "soundname34",
+//       "soundname35",
+//       "soundname36",
+//       "soundname37",
+//       "soundname38"
+//     ]
+//   }
+// }
