@@ -2,7 +2,7 @@
 Has a qt interface, generates json from a template. It is also possible to upload files to text lists of their names.  
   
 # How to use
-Example of input:  
+Example of input :  
 ```json
 {
 "~~~soundname1 soundname2 soundname3~~~": {
