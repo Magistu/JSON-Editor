@@ -1,4 +1,4 @@
-# JSON-Editor
+<# JSON-Editor
 Has a qt interface, generates json from a template. It is also possible to upload files to text lists of their names.  
   
 # How to use  
@@ -50,3 +50,4 @@ Functional:
 "Add File Names" Adds and writes a list of filenames.
 "Add File Names Arrays" Adds and writes a list of arrays of filenames (not for headers)
 "Convert" Generates a json file and dumps it to out.json in the same directory where the script is located. 
+>
