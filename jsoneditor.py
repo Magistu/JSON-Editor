@@ -66,7 +66,7 @@ menuFile.addAction(close)
 
 menuEdit = window.menuBar().addMenu("&Edit")
 
-extenxion = QAction('&File extenxion', menuEdit, checkable=True)
+extenxion = QAction('&File extension', menuEdit, checkable=True)
 menuEdit.addAction(extenxion)
 
 add_file_names_action = QAction("&Add File Names")
